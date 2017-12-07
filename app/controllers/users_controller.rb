@@ -53,10 +53,6 @@ class UsersController < ApplicationController
                                   :password_confirmation)
     end
 
-    def create_activation_digest
-
-    end
-
     # Before filters
 
     def logged_in_user
